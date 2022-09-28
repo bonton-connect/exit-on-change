@@ -6,12 +6,12 @@
   "version": "1.0.4",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "yarn build",
+    "prepack": "rm tsconfig.tsbuildinfo && mkdir -p dist && yarn build",
     "build": "tsc",
     "build:watch": "tsc --watch --preserveWatchOutput"
   },
   "files": [
-    "dist/*"
+    "dist/**/*"
   ],
   "devDependencies": {
     "typescript": "^4.8.2"
