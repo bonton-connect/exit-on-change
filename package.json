@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -21,6 +21,10 @@
     "name": "Omran Jamal",
     "email": "omran@bonton.app",
     "url": "omranjamal.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bonton-connect/exit-on-change.git"
   },
   "keywords": [
     "nodemon",
